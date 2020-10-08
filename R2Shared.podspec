@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
   
   s.dependency 'Fuzi'
-  s.dependency 'Minizip'
+  s.dependency 'Minizip', :git => 'https://github.com/d-i-t-a/Minizip'
 
 end
